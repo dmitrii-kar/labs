@@ -1,0 +1,389 @@
+/* Layout & Typo
+------------------------------------------------------------------ */
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #079dff;
+    border-left-width: .25rem;
+	border-radius: .25rem;
+}
+
+body{
+ background-color: #000000;
+   padding: 0px;
+   margin: 0px;
+ }
+
+#gradient
+{
+  width: 100%;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7;
+	font-family: 'Open Sans', sans-serif;
+	padding: 38px 16px 0 16px;
+	margin: 0 auto;
+	background: #fff;
+	background-size: cover;
+}
+
+body.fullscreen {
+	text-align: center;
+	width: auto;
+	padding: 38px 0;
+}
+
+div#welcome {
+	margin: 3.5em 0 1em 0;
+	font-size: 90%;
+}
+
+div#foot {
+	font-size: 80%;
+	padding: 4em 0 3em 0;
+	color: #999;
+}
+
+h1#phoboslab-logo {
+	text-align: center;
+	text-indent: -5000px;
+	overflow: hidden;
+	color: #fff;
+	margin: 64px 0 24px 0;
+	margin-top: 1em;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIxNjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMTYwIDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4NCiAgICA8dGl0bGU+UEhPQk9TTEFCPC90aXRsZT4NCiAgICA8ZyBpZD0iUEhPQk9TTEFCIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0iIzAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTAuMzM4LDEuMjYzIEw2LjUyMCwxLjI2MyBDMTAuMTY3LDEuMjYzIDEyLjAwMyw0LjIxOCAxMi4wMDMsNy4xNzQgQzEyLjAwMywxMC4xMzAgMTAuMTY3LDEzLjA2MSA2LjUyMCwxMy4wNjEgTDIuODAxLDEzLjA2MSBMMi44MDEsMTguOTQ3IEwwLjMzOCwxOC45NDcgTDAuMzM4LDEuMjYzIFogTTIuODAxLDEwLjUzNCBMNi41MjAsMTAuNTM0IEM4LjU3MywxMC41MzQgOS41ODcsOC44NjcgOS41ODcsNy4yIEM5LjU4Nyw1LjUwNyA4LjU3MywzLjg0IDYuNTIwLDMuODQgTDIuODAxLDMuODQgTDIuODAxLDEwLjUzNCBaIE0xOS4yODUsMS4yODggTDE5LjI4NSw4Ljc0MSBMMjYuNDM0LDguNzQxIEwyNi40MzQsMS4yODggTDI4Ljg5NywxLjI4OCBMMjguODk3LDE4Ljk0NyBMMjYuNDM0LDE4Ljk0NyBMMjYuNDM0LDExLjI2NyBMMTkuMjg1LDExLjI2NyBMMTkuMjg1LDE4Ljk0NyBMMTYuODQ2LDE4Ljk0NyBMMTYuODQ2LDEuMjg4IEwxOS4yODUsMS4yODggWiBNNDkuMDUzLDEwLjEwNSBDNDkuMDUzLDguMjg2IDQ4LjM1Miw2LjY5NCA0Ny4yNjYsNS41MzIgQzQ2LjEzMCw0LjM0NSA0NC41NjEsMy42MTIgNDIuODk0LDMuNjEyIEM0MS4yMjgsMy42MTIgMzkuNjgyLDQuMzQ1IDM4LjU3MSw1LjUzMiBDMzcuNDYwLDYuNjk0IDM2Ljc2MCw4LjMxMSAzNi43NjAsMTAuMTA1IEMzNi43NjAsMTEuODk4IDM3LjQ2MCwxMy41MTUgMzguNTcxLDE0LjY3NyBDMzkuNjgyLDE1Ljg2NSA0MS4yMjgsMTYuNTk3IDQyLjg5NCwxNi41OTcgQzQ0LjU2MSwxNi41OTcgNDYuMTMwLDE1Ljg2NSA0Ny4yNjYsMTQuNjc3IEM0OC4zNTIsMTMuNTE1IDQ5LjA1MywxMS45MjQgNDkuMDUzLDEwLjEwNSBMNDkuMDUzLDEwLjEwNSBaIE0zNC4yOTcsMTAuMTA1IEMzNC4yOTcsNy42MDQgMzUuMjg3LDUuMzU1IDM2LjgwOCwzLjcxMyBDMzguMzU0LDIuMDcxIDQwLjUyNywxLjAzNSA0Mi44OTQsMS4wMzUgQzQ1LjI4NSwxLjAzNSA0Ny40MzUsMi4wNzEgNDkuMDA0LDMuNzEzIEM1MC41MjYsNS4zNTUgNTEuNTE2LDcuNjA0IDUxLjUxNiwxMC4xMDUgQzUxLjUxNiwxMi42MDYgNTAuNTI2LDE0Ljg1NCA0OS4wMDQsMTYuNDk2IEM0Ny40MzUsMTguMTY0IDQ1LjI4NSwxOS4xNzQgNDIuODk0LDE5LjE3NCBDNDAuNTI3LDE5LjE3NCAzOC4zNTQsMTguMTY0IDM2LjgwOCwxNi40OTYgQzM1LjI4NywxNC44NTQgMzQuMjk3LDEyLjYwNiAzNC4yOTcsMTAuMTA1IEwzNC4yOTcsMTAuMTA1IFogTTU5LjIxMCwzLjcxMyBMNTkuMjEwLDguMzExIEw2My43NzQsOC4zMTEgQzY2LjQzMSw4LjMxMSA2Ni40NzksMy43MTMgNjMuODIyLDMuNzEzIEw1OS4yMTAsMy43MTMgWiBNNTYuNzk0LDEuMjg4IEw2My44MjIsMS4yODggQzY1Ljk0OCwxLjI4OCA2Ny4zMDAsMi41NTEgNjcuOTI4LDQuMTkzIEM2OC42MDQsNS45MzYgNjguMzg3LDcuOTU3IDY2LjY5Niw5LjIyMSBDNjguNjI4LDEwLjA4IDY5LjMyOSwxMS45NDkgNjkuMzI5LDEzLjYxNiBDNjkuMzI5LDE2LjI2OSA2Ny42NjIsMTguOTQ3IDY0LjQyNiwxOC45NDcgTDU2Ljc5NCwxOC45NDcgTDU2Ljc5NCwxLjI4OCBaIE01OS4yMTAsMTAuODM3IEw1OS4yMTAsMTYuNDcxIEw2NC40MjYsMTYuNDcxIEM2Ni4wNjgsMTYuNDcxIDY2Ljg5MCwxNS4wMzEgNjYuODkwLDEzLjY0MiBDNjYuODkwLDEyLjI1MiA2Ni4wNjgsMTAuODM3IDY0LjQyNiwxMC44MzcgTDU5LjIxMCwxMC44MzcgWiBNODguNjM5LDEwLjEwNSBDODguNjM5LDguMjg2IDg3LjkzOCw2LjY5NCA4Ni44NTIsNS41MzIgQzg1LjcxNyw0LjM0NSA4NC4xNDcsMy42MTIgODIuNDgwLDMuNjEyIEM4MC44MTQsMy42MTIgNzkuMjY4LDQuMzQ1IDc4LjE1Nyw1LjUzMiBDNzcuMDQ2LDYuNjk0IDc2LjM0Niw4LjMxMSA3Ni4zNDYsMTAuMTA1IEM3Ni4zNDYsMTEuODk4IDc3LjA0NiwxMy41MTUgNzguMTU3LDE0LjY3NyBDNzkuMjY4LDE1Ljg2NSA4MC44MTQsMTYuNTk3IDgyLjQ4MCwxNi41OTcgQzg0LjE0NywxNi41OTcgODUuNzE3LDE1Ljg2NSA4Ni44NTIsMTQuNjc3IEM4Ny45MzgsMTMuNTE1IDg4LjYzOSwxMS45MjQgODguNjM5LDEwLjEwNSBMODguNjM5LDEwLjEwNSBaIE03My44ODMsMTAuMTA1IEM3My44ODMsNy42MDQgNzQuODczLDUuMzU1IDc2LjM5NCwzLjcxMyBDNzcuOTQwLDIuMDcxIDgwLjExNCwxLjAzNSA4Mi40ODAsMS4wMzUgQzg0Ljg3MSwxLjAzNSA4Ny4wMjEsMi4wNzEgODguNTkxLDMuNzEzIEM5MC4xMTIsNS4zNTUgOTEuMTAyLDcuNjA0IDkxLjEwMiwxMC4xMDUgQzkxLjEwMiwxMi42MDYgOTAuMTEyLDE0Ljg1NCA4OC41OTEsMTYuNDk2IEM4Ny4wMjEsMTguMTY0IDg0Ljg3MSwxOS4xNzQgODIuNDgwLDE5LjE3NCBDODAuMTE0LDE5LjE3NCA3Ny45NDAsMTguMTY0IDc2LjM5NCwxNi40OTYgQzc0Ljg3MywxNC44NTQgNzMuODgzLDEyLjYwNiA3My44ODMsMTAuMTA1IEw3My44ODMsMTAuMTA1IFogTTEwOC4wMjEsNS43MzQgTDEwNS42MDYsNS44MzUgQzEwNS4yNjgsNC4yNDQgMTAzLjYyNiwzLjU2MiAxMDIuMTUzLDMuNTg3IEMxMDEuMDE4LDMuNjEyIDk5Ljc2Miw0LjAxNiA5OS4wODUsNC45MjYgQzk4Ljc0Nyw1LjM4MSA5OC42MjcsNS45NjIgOTguNjc1LDYuNTY4IEM5OC43OTYsOC4zODcgMTAwLjcwNCw4LjYxNCAxMDIuNTE1LDguNzkxIEMxMDQuODMzLDkuMDk0IDEwNy43MDcsOS43MjYgMTA4LjM1OSwxMi41NTUgQzEwOC40MzIsMTIuOTM0IDEwOC40ODAsMTMuMzY0IDEwOC40ODAsMTMuNzE3IEMxMDguNDgwLDE3LjEyOCAxMDUuMjQ0LDE5LjA5OCAxMDIuMjAxLDE5LjA5OCBDOTkuNTkzLDE5LjA5OCA5Ni40MjksMTcuNDgyIDk2LjExNSwxNC4zMjQgTDk2LjA5MSwxMy44NDQgTDk4LjU1NCwxMy43OTMgTDk4LjU3OCwxNC4xNzIgTDk4LjU3OCwxNC4wNzEgQzk4Ljc0NywxNS43MTMgMTAwLjY1NSwxNi41NzIgMTAyLjIyNSwxNi41NzIgQzEwNC4wMzYsMTYuNTcyIDEwNi4wMTcsMTUuNTExIDEwNi4wMTcsMTMuNjkyIEMxMDYuMDE3LDEzLjUxNSAxMDUuOTkzLDEzLjMxMyAxMDUuOTQ0LDEzLjA4NiBDMTA1LjY1NSwxMS43NDcgMTAzLjkxNiwxMS41MiAxMDIuMjI1LDExLjM0MyBDOTkuNTkzLDExLjA2NSA5Ni41MDEsMTAuNDU4IDk2LjIzNiw2Ljc3MCBMOTYuMjM2LDYuNzk1IEM5Ni4xMzksNS42MDggOTYuNDI5LDQuNDIxIDk3LjE1MywzLjQzNSBDOTguMjg4LDEuODk0IDEwMC4zMTcsMS4wODYgMTAyLjI3MywxLjA4NiBDMTA0Ljg4MiwxLjA4NiAxMDcuNTg3LDIuNTAxIDEwOC4wMjEsNS43MzQgTDEwOC4wMjEsNS43MzQgWiBNMTE1Ljg4NCwxLjI4OCBMMTE1Ljg4NCwxNi4zOTUgTDEyMy44MjksMTYuMzk1IEwxMjMuODI5LDE4Ljk0NyBMMTEzLjQ0NSwxOC45NDcgTDExMy40NDUsMS4yODggTDExNS44ODQsMS4yODggWiBNMTMzLjAyMCwxMS4zNDMgTDEzNy4yMjIsMTEuMzQzIEwxMzUuMTQ1LDUuMTAzIEwxMzMuMDIwLDExLjM0MyBaIE0xMzguMTY0LDEzLjc0MyBMMTMyLjEwMiwxMy43NDMgQzEzMS40NTAsMTUuMzYgMTMwLjYwNSwxNy40ODIgMTMwLjA3NCwxOC45NDcgTDEyNy40NDEsMTguOTQ3IEwxMzQuMjI4LDEuMDM1IEwxMzYuMDE1LDEuMDM1IEwxNDIuODAxLDE4Ljk0NyBMMTQwLjE5MywxOC45NDcgTDEzOC4xNjQsMTMuNzQzIFogTTE0OS4yMzksMy43MTMgTDE0OS4yMzksOC4zMTEgTDE1My44MDMsOC4zMTEgQzE1Ni40NjAsOC4zMTEgMTU2LjUwOCwzLjcxMyAxNTMuODUyLDMuNzEzIEwxNDkuMjM5LDMuNzEzIFogTTE0Ni44MjQsMS4yODggTDE1My44NTIsMS4yODggQzE1NS45NzcsMS4yODggMTU3LjMyOSwyLjU1MSAxNTcuOTU3LDQuMTkzIEMxNTguNjM0LDUuOTM2IDE1OC40MTYsNy45NTcgMTU2LjcyNiw5LjIyMSBDMTU4LjY1OCwxMC4wOCAxNTkuMzU4LDExLjk0OSAxNTkuMzU4LDEzLjYxNiBDMTU5LjM1OCwxNi4yNjkgMTU3LjY5MiwxOC45NDcgMTU0LjQ1NiwxOC45NDcgTDE0Ni44MjQsMTguOTQ3IEwxNDYuODI0LDEuMjg4IFogTTE0OS4yMzksMTAuODM3IEwxNDkuMjM5LDE2LjQ3MSBMMTU0LjQ1NiwxNi40NzEgQzE1Ni4wOTgsMTYuNDcxIDE1Ni45MTksMTUuMDMxIDE1Ni45MTksMTMuNjQyIEMxNTYuOTE5LDEyLjI1MiAxNTYuMDk4LDEwLjgzNyAxNTQuNDU2LDEwLjgzNyBMMTQ5LjIzOSwxMC44MzcgWiBNMTQ5LjIzOSwxMC44MzciPjwvcGF0aD4NCiAgICA8L2c+DQo8L3N2Zz4=);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	padding: 0;
+	border: 0;
+	background-size: 240px 28px;
+	height: 28px;
+}
+
+a {
+	color: #F45D0E;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a[href="/log/feed"] {
+	background:transparent url(feed-icon.png) no-repeat scroll 2px 50%;
+	padding-left:16px;
+}
+
+p {
+	padding: 0;
+	margin: 0.5em 0 1.5em 0;
+	word-wrap: break-word;
+}
+
+h1 {
+	text-align: center;
+	font-size: 170%;
+	letter-spacing: -0.03em;
+	line-height: 1.3;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-bottom: 32px;
+	margin: 1.4em 24px 1.2em 24px;
+	border-bottom: 1px solid #eee;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #F45D0E;
+}
+
+h1 a:hover {
+	color: #000;
+}
+
+h2 {
+	margin: 2em 0 0 0;
+	padding: 0;
+	font-size: 120%;
+	font-weight: 400;
+}
+
+h3 {
+	margin: 2em 0 0 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 80%;
+	margin: 0;
+}
+
+blockquote {
+	position: relative;
+	margin: 3em 0 1.5em 2em;
+	font-size: 14px;
+	line-height: 1.5em;
+	font-style: italic;
+	font-weight: 400;
+	text-indent: 24px;
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 72px;
+	position: absolute;
+	left: -40px;
+	top: 0px;
+	color: #ccc;
+}
+
+a img { border: 0; }
+img.left { float:left; margin-right: 10px; }
+img.right { float: right; margin-left: 5px; }
+img.center { display: block; margin-left: auto; margin-right: auto; width: 100%;}
+img.noalign { border-right: 5px solid #fff; width: 100%;}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	margin-top: 0.4em;
+	font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------
+Scroll Tip and Arrow */
+
+a#blog-home {
+	display: block;
+	position: fixed;
+	left: 20px;
+	height: 18px;
+	top: 64px;
+	z-index: 10;
+	font-size: 12px;
+	background: rgba(0, 0, 0, .2);
+	color: rgba(255, 255, 255, .7);
+	padding: 2px 10px 4px 10px;
+	border-radius: 3px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	font-weight: 400;
+}
+
+a#blog-home:hover {
+	color: rgba(255, 255, 255, .85);
+	background: rgba(244, 93, 14, 1);
+}
+
+a#blog-home:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	left: -12px;
+	height: 0;
+	top: 0;
+	border-top: 12px solid transparent;
+	border-right: 12px solid rgba(0, 0, 0, .2);
+	border-bottom: 12px solid transparent;
+}
+
+a#blog-home:hover:after {
+	border-right: 12px solid rgba(244, 93, 14, 1);
+}
+
+
+
+/* Blog
+------------------------------------------------------------------ */
+
+div.post {
+	padding: 3em 0 3em 0;
+}
+
+	div.post div.foot {
+		margin-top: 3em;
+		text-align: right;
+		font-size: 80%;
+		color: #999;
+	}
+
+div.prev { font-size: 80%; float: left; }
+div.next { font-size: 80%; float: right; }
+div.archive { font-size: 80%; clear: both; text-align: center; }
+
+ul.archive { color: #eee; }
+span.archiveDate, span.archiveCount { font-size: 80%; color: #999; }
+
+
+/* Comments
+------------------------------------------------------------------ */
+
+input, textarea {
+	color: #555;
+	background-color: #fff;
+	padding: 0.5em;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+	width: 100%;
+	padding: 0.5em;
+	height: 180px;
+}
+
+input.submit {
+	background-color: #eee;
+	color: #000;
+}
+
+input.submit:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #F45D0E;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border: 1px solid #F45D0E;
+}
+
+div.comments {
+	margin-top: 6em;
+}
+
+div.comment {
+	margin: 3em 0;
+}
+
+div.comment p { /* IE workaround \o/ */
+	xpadding-bottom: 0.5em;
+}
+
+div.commentInfo {
+	font-size: 80%;
+}
+
+span.commentDate {
+	color: #999;
+	xfloat: right;
+	xfont-size: 80%;
+}
+
+form.commentAdd {
+	margin: 0.5em 0 3em 0;
+}
+
+div.formbox {
+	margin: 0.5em 0 1em 0;
+}
+
+div.clear {
+	clear:both;
+}
+
+div.warn {
+	border: 1px solid #ffd585;
+	background-color: #ffefd2;
+	padding: 0.3em;
+	margin: 0.8em 0;
+}
+
+img.favatar{
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+}
+
+.formFieldSpecial {
+	width: 20px;
+	margin: 0;
+	border: 0;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.nn {
+	display: none;
+}
+
+
+/* Code and Syntax Highlighting
+------------------------------------------------------------------ */
+
+code {
+	font-family: Droid Sans Mono, Courier New, Lucida Console, Bitstream Vera Sans Mono, monospace;
+	background-color: #fafafa;
+	font-size: 90%;
+	margin: 0 0.3em;
+	color: #000;
+}
+
+pre {
+	font-family: Droid Sans Mono, Courier New, Lucida Console, Bitstream Vera Sans Mono, monospace;
+	font-size: 12px;
+	background-color: #fafafa;
+	/*border-left: 5px solid #f6f6f6;*/
+	padding: 1em 0 1em 1em;
+	overflow: auto;
+	color: #000;
+}
+
+	pre span.N{ color:#ea0; } /* Numbers */
+	pre span.S{ color:#080; } /* Strings */
+	pre span.C{ color:#a60; } /* Comments */
+	pre span.K{ color:#008; } /* Keywords */
+	pre span.V{ color:#808; } /* Vars */
+	pre span.D{ color:#a00; } /* Defines */
+
+
+/* Whitebox
+------------------------------------------------------------------ */
+
+#whiteboxBackground {
+	background-color: #fff;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	top: 0;
+	left: 0;
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+#whitebox {
+	top: 0;
+	left: 0;
+	display: none;
+	position: fixed;
+	padding: 10px;
+	margin: -12px 0 0 -12px;
+	background: #fff url(loading.gif) no-repeat scroll center center;
+	border: 1px solid #eee;
+}
+	#whitebox img {
+		border: 1px solid #eee;
+		cursor: pointer;
+	}
